@@ -1,0 +1,698 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.social {
+    display: flex;
+    margin: 15px 0px;
+    background-color: #e0f4fb;
+    height: 55px;
+    align-items: center;
+    margin: 0px;
+}
+
+.location {
+    margin: 0px 0px 0px 44px
+}
+
+.location i {
+    color: blue;
+}
+
+.time {
+    margin: 0px 0px 0px 40px;
+}
+
+.time i {
+    color: blue;
+}
+
+.icon {
+    display: flex;
+    position: relative;
+    left: 40%;
+    justify-content: space-between;
+    width: 245px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.phone {
+    /* position: relative;
+    left: 30%; */
+}
+
+.phone i {
+    color: blue;
+}
+
+.facebook {
+    /* position: relative;
+    left: 31%; */
+    color: blue;
+}
+
+.facebook i {
+    color: blue;
+}
+
+.twitter {
+    /* position:relative;
+    left: 32.5%; */
+    color: blue;
+}
+
+.linkdin {
+    /* position: relative;
+left: 33.5%; */
+    color: blue;
+}
+
+.insta {
+    /* position: relative;
+    left: 35%; */
+    color: blue;
+}
+
+#nav {
+    display: flex;
+    position: relative;
+}
+
+.logo {
+    height: 70px;
+    margin-left: 45px;
+    font-size: 39px;
+    font-weight: bold;
+    color: Blue;
+    align-content: center;
+    /* background-color: burlywood; */
+}
+
+.logo a {
+    color: blue;
+    text-decoration: none;
+}
+
+.button {
+    position: relative;
+    left: 41%;
+    height: 75px;
+    /* background-color: burlywood; */
+    width: 400px;
+    align-content: center;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+    margin: 9px;
+}
+
+.button a:hover {
+    color: blue;
+}
+
+
+.btn {
+    height: 75px;
+    position: relative;
+    left: 41%;
+    background-color: blue;
+    font-size: 23px;
+    width: 206px;
+    align-content: center;
+}
+
+.btn a {
+    color: white;
+    position: relative;
+    left: 21px;
+    text-decoration: none;
+}
+
+.btn i {
+    color: white;
+    margin: 15px;
+}
+
+/* main section  */
+.main {
+    height: 450px;
+    background-color: lightblue;
+    margin-top: -48px;
+}
+
+.textbox {
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+
+}
+
+.textbox p {
+    font-size: 49px;
+    color: white;
+    position: relative;
+    top: 135px;
+    left: 90px;
+    font-weight: bold;
+}
+
+.vl {
+    display: flex;
+    justify-content: space-between;
+    width: 72%
+}
+
+.vl p {
+    font-size: 15px;
+    height: 45px;
+    border-left: 1px solid white;
+    padding: 0px 14px 14px 14px;
+}
+
+.vl p samp {
+    font-size: 30px;
+}
+
+.img {
+    position: relative;
+    top: -450px;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    background-color: palevioletred;
+    /* background-image: url(img/pexels-cristian-rojas-8460371.jpg); */
+}
+
+.img img {
+    height: 100%;
+    width: 100%;
+}
+
+/* second section  */
+.second {
+    height: 678px;
+    width: 100%;
+    background-color: white;
+}
+
+.img1 {
+    height: 678px;
+    width: 50%;
+    background-color: white;
+}
+
+.dress {
+    height: 234px;
+    position: relative;
+    top: -270px;
+    left: 266px;
+    border: 18px solid white;
+    border-radius: 20px;
+}
+
+.doctor {
+    position: relative;
+    top: 190px;
+    left: 69px;
+    height: 256px;
+    z-index: 1;
+    border: 18px solid white;
+    border-radius: 20px;
+}
+
+.text {
+    height: 678px;
+    width: 50%;
+    background-color: white;
+    position: relative;
+    top: -678px;
+    left: 675px;
+}
+
+.text button {
+    position: relative;
+    top: 40px;
+    left: 13px;
+    padding: 5px;
+    margin: 4px;
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 101px;
+    height: 29px;
+    font-size: 16px;
+    background-color: white;
+}
+
+
+.text h1 {
+    margin: 65px 23px 0px 20px;
+    font-size: 35px;
+}
+
+.text p {
+    margin: 28px 52px 35px 24px;
+}
+
+.text ol li {
+    margin: 40px 70px 40px 7px;
+}
+
+.text ol li i {
+    margin: 0px 10px 0px 0px;
+    color: blue;
+}
+
+.text input {
+    width: 160px;
+    height: 53px;
+    font-size: 19px;
+    border-radius: 46px;
+    background-color: blue;
+    border: none;
+    color: white;
+    margin: 0px 25px;
+}
+
+.text input:hover {
+    cursor: pointer;
+    background-color: darkblue;
+}
+
+/* our services */
+
+.our-services {}
+
+.bttn {
+    position: relative;
+    top: -40px;
+    left: 47%;
+    width: 200px;
+}
+
+.bttn button {
+    height: 36px;
+    width: 115px;
+    border-radius: 25px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.h1 {
+    width: 450px;
+    position: relative;
+    top: -48px;
+    left: 37%;
+    font-size: 40px;
+}
+
+/* our services box  */
+
+.main-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 65px;
+    margin-top: -41px;
+    padding: 34px;
+}
+
+.box1 {
+    height: 339px;
+    width: 350px;
+    background-color: #e3f6fd;
+    margin: 0px 16px 30px 16px;
+    border-radius: 12px;
+}
+.box1 i{
+    height: 32px;
+}
+
+.box1 h2{
+    width: 34px;
+    margin: 83px 0px 12px 55px;
+}
+
+.box1 p{
+    margin: 31px 35px 16px 59px;
+}
+
+.box1 input{
+    height: 33px;
+    width: 100px;
+    position: relative;
+    left: 83px;
+    top: 22px;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid black;
+}
+.box1 input:hover{
+    cursor: pointer;
+}
+
+.box2 {
+    height: 339px;
+    width: 350px;
+    background-color: #e3f6fd;
+    margin: 0px 16px 30px 16px;
+    border-radius: 12px;
+}
+
+.box2 i{
+    height: 32px;
+}
+
+.box2 h2{
+    width: 34px;
+    margin: 83px 0px 12px 55px;
+}
+
+.box2 p{
+    margin: 31px 35px 16px 59px;
+}
+
+.box2 input{
+    height: 33px;
+    width: 100px;
+    position: relative;
+    left: 83px;
+    top: 22px;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid black;
+}
+.box2 input:hover{
+    cursor: pointer;
+}
+
+
+.box3 {
+    height: 339px;
+    width: 350px;
+    background-color: #e3f6fd;
+    margin: 0px 16px 30px 16px;
+    border-radius: 12px;
+}
+
+.box3 i{
+    height: 32px;
+}
+
+.box3 h2{
+    width: 34px;
+    margin: 83px 0px 12px 55px;
+}
+
+.box3 p{
+    margin: 31px 35px 16px 59px;
+}
+
+.box3 input{
+    height: 33px;
+    width: 100px;
+    position: relative;
+    left: 83px;
+    top: 22px;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid black;
+}
+.box3 input:hover{
+    cursor: pointer;
+}
+
+.box4 {
+    height: 339px;
+    width: 350px;
+    background-color: #e3f6fd;
+    margin: -10px 16px 300px 16px;
+    border-radius: 12px;
+}
+
+.box4 i{
+    height: 32px;
+}
+
+.box4 h2{
+    width: 34px;
+    margin: 83px 0px 12px 55px;
+}
+
+.box4 p{
+    margin: 31px 35px 16px 59px;
+}
+
+.box4 input{
+    height: 33px;
+    width: 100px;
+    position: relative;
+    left: 83px;
+    top: 22px;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid black;
+}
+.box4 input:hover{
+    cursor: pointer;
+}
+
+.box5 {
+    height: 339px;
+    width: 350px;
+    background-color: #e3f6fd;
+    margin: -10px 16px 300px 16px;
+    border-radius: 12px;
+}
+
+.box5 i{
+    height: 32px;
+}
+
+.box5 h2{
+    width: 182px;
+    margin: 83px 0px 12px 55px;
+}
+
+.box5 p{
+    margin: 31px 35px 16px 59px;
+}
+
+.box5 input{
+    height: 33px;
+    width: 100px;
+    position: relative;
+    left: 83px;
+    top: 22px;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid black;
+}
+.box5 input:hover{
+    cursor: pointer;
+}
+
+.box6 {
+    height: 339px;
+    width: 350px;
+    background-color: #e3f6fd;
+    margin: -10px 16px 300px 16px;
+    border-radius: 12px;
+}
+.box6 i{
+    height: 32px;
+}
+
+.box6 h2{
+    width: 34px;
+    margin: 83px 0px 12px 55px;
+}
+
+.box6 p{
+    margin: 31px 35px 16px 59px;
+}
+
+.box6 input{
+    height: 33px;
+    width: 100px;
+    position: relative;
+    left: 83px;
+    top: 22px;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid black;
+}
+.box6 input:hover{
+    cursor: pointer;
+}
+
+/* section third / */
+
+.third {
+    height: 450px;
+    background-color: lightblue;
+    margin-top: -290px;
+}
+
+.text2 {
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+
+}
+
+.text2 button{
+    height: 36px;
+    width: 103px;
+    position: relative;
+    top: 65px;
+    left: 97px;
+    border-radius: 25px;
+    border: 1px solid white;
+    background-color: blue;
+    color: white;
+}
+
+.text2 h2 {
+    font-size: 44px;
+    color: white;
+    position: relative;
+    top: 50px;
+    left: 90px;
+}
+
+.text2 p{
+    color: white;
+    position: relative;
+    top: 44px;
+    left: 90px;
+    width: 485px;
+}
+
+.exp{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 680px;
+    position: relative;
+    left: -5px;
+    top: -76px;
+}
+
+.exp p{
+    position: relative;
+    top: 100px;
+    left: 170px;
+    font-size: 23px;
+    width: 320px;
+}
+
+.exp samp{
+    font-weight: bold;
+}
+
+/* section .doctor1 */
+.Doctor{
+}
+.Doctor button{
+    position: relative;
+    top: 41px;
+    left: 50%;
+    height: 32px;
+    width: 97px;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.Doctor h1{
+    height: 34px;
+    position: relative;
+    top: 44px;
+    left: 41%;
+    width: 400px;
+    font-size: 38px;
+}
+
+.doc{
+    display: flex;
+    margin: 146px 74px 34px 74px;
+    justify-content: center;
+}
+.doc p{
+    position: relative;
+    top: -18px;
+    left: 70px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.doc p samp{
+    font-weight: normal;
+    font-size: 16px;
+    color: blue;
+}
+
+.doctor1{
+    height: 320px;
+    width: 250px;
+    background-color: #f4fbfd;
+    margin-right: 34px;
+}
+.doctor1 img{
+    height: 250px;
+    width: 250px;
+}
+
+.doctor2{
+    height: 320px;
+    width: 250px;
+    background-color: #f4fbfd;
+    margin-right: 34px;
+}
+.doctor2 img{
+    height: 250px;
+    width: 250px;
+}
+
+.doctor3{
+    height: 320px;
+    width: 250px;
+    background-color: #f4fbfd;
+    margin-right: 34px;
+}
+.doctor3 img{
+    height: 250px;
+    width: 250px;
+}
+
+.doctor4{
+    height: 320px;
+    width: 250px;
+    background-color: #f4fbfd;
+}
+.doctor4 img{
+    height: 250px;
+    width: 250px;
+}
+.footer{
+    background-color: #524f4f;
+    color: white;
+    
+}
+
+.address{
+    margin: 67px 150px 45px 150px;
+}
+
+.address h1{
+    padding-top: 50px;
+
+}
+.address p{
+    margin-top: 10px;
+}
